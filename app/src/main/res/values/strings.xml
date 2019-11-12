@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kotlin App</string>
+    <string name="edit_message">Enter a Message</string>
+    <string name="send">Send</string>
+    <string name="next">next</string>
+    <string name="what_kind_of_pain_are_you_experiencing_today">What kind of pain are you experiencing today?</string>
+    <string name="textview">TextView</string>
+    <string name="how_severe_is_this_pain">How severe is this pain?</string>
+    <string name="_0">0</string>
+    <string name="reset">Reset</string>
+</resources>
