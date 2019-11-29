@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/carrois_gothic"
-        android:text="@string/what_kind_of_pain_are_you_experiencing_today"
+        android:text="@string/what_workout_did_you_do_today"
         android:textAlignment="center"
         android:textColor="#E2FFFFFF"
         android:textSize="30sp"

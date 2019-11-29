@@ -7,11 +7,26 @@
     android:background=" #B0C38D"
     tools:context=".DisplayMessageActivity">
 
+    <Button
+        android:id="@+id/button_reset3"
+        android:layout_width="117dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="156dp"
+        android:fontFamily="@font/cardo_bold"
+        android:text="@string/water"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_reset"
+        app:layout_constraintVertical_bias="0.139" />
+
     <TextView
         android:id="@+id/textView_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="100dp"
         android:fontFamily="@font/carrois_gothic"
         android:text="@string/textview"
         android:textColor="#E2FFFFFF"
@@ -25,13 +40,11 @@
         android:id="@+id/textView_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:fontFamily="@font/carrois_gothic"
-        android:text="@string/how_severe_is_this_pain"
+        android:text="@string/rating_of_percieved_exertion"
         android:textColor="#E2FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_message" />
 
@@ -40,25 +53,24 @@
         android:layout_width="253dp"
         android:layout_height="47dp"
         android:layout_marginTop="36dp"
-        android:max="10"
+        android:max="20"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_question"
-        app:layout_constraintVertical_bias="0.391" />
+        app:layout_constraintVertical_bias="0.496" />
 
     <Button
         android:id="@+id/button_reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:fontFamily="@font/cardo_bold"
         android:text="@string/reset"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekBar"
-        app:layout_constraintVertical_bias="0.129" />
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
 
     <TextView
         android:id="@+id/textView_progress"

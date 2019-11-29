@@ -8,4 +8,18 @@
     <string name="how_severe_is_this_pain">How severe is this pain?</string>
     <string name="_0">0</string>
     <string name="reset">Reset</string>
+    <string name="exercise">Exercise</string>
+    <string name="water">Water</string>
+    <string name="what_is_your_heart_rate_while_working_out">What is your heart rate while working out?</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="submit">Submit</string>
+    <string name="this_application_assists_people_who_are_struggling_with_pots_with_a_workout_and_keeps_in_mind_the_various_factors_necessary_to_workout_in_a_healthy_way">This Application assists people who are struggling with POTS with a workout and keeps in mind the various factors necessary to workout in a healthy way.</string>
+    <string name="click_here_to_continue">Click Here To Continue</string>
+    <string name="rating_of_percieved_exertion">Rating of Percieved Exertion</string>
+    <string name="what_workout_did_you_do_today">What workout did you do today?</string>
+    <string name="done_with_workout">Done With Workout</string>
+    <string name="heart_rate_0">Heart Rate: 0</string>
+    <string name="glasses_of_water">Glasses of Water</string>
+    <string name="maximum_steady_state_should_be_170_180bpm_and_recovery_should_be_less_that_150bpm">Maximum Steady State should be 170-180bpm and Recovery should be less that 150bpm</string>
+    <string name="_2_liters_of_7_glasses_of_water_should_be_consumed_everyday">2 Liters of 7 glasses of water should be consumed everyday</string>
 </resources>

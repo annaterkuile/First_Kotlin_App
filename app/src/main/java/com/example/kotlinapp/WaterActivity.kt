@@ -1,26 +1,16 @@
 package com.example.kotlinapp
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.SeekBar
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_display_message.*
 
-class DisplayMessageActivity : AppCompatActivity() {
+class WaterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_display_message)
-
-        // Get the Intent that started this activity and extract the string
-        val message = intent.getStringExtra(EXTRA_MESSAGE)
-
-        // Capture the layout's TextView and set the string as its text
-        val textView = findViewById<TextView>(R.id.textView_message).apply {
-            text = message
-
-        }
+        setContentView(R.layout.activity_water)
 
         val initialTextViewTranslationY = textView_progress.translationY
 
@@ -50,11 +40,5 @@ class DisplayMessageActivity : AppCompatActivity() {
         button_reset.setOnClickListener {v ->
             seekBar.progress = 0
         }
-
-        button_reset3.setOnClickListener {
-            val intentGoToWaterActivity = Intent(this, WaterActivity::class.java)
-            startActivity(intentGoToWaterActivity)
-        }
-
-        }
     }
+}
